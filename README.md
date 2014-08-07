@@ -2,7 +2,7 @@
 
 **Jekyll** est un générateur de site statique qui est parfait pour les blogs hébergés sur GitHub ([Repository Jekyll](https://github.com/jekyll/jekyll))
 
-**Jekyll Now** facilite la création de votre blog Jekyll, en éliminant beaucoup de réglages amont.
+**Jekyll Now** facilite la création de votre blog Jekyll, en éliminant plein de réglages en amont.
 
 - Vous n'avez pas besoin de toucher la ligne de commande
 - Vous n'avez pas besoin d'installer/configurer ruby, rvm/rbenv, ruby gems :relaxed:
@@ -10,9 +10,9 @@
 - Si vous êtes sur Windows, ceci facilitera grandement l'installation de Jekyll
 - C'est facile d'essayer, vous pouvez simplement effacer votre repository forké si vous n'aimez pas
 
-En quelques minutes, vous aurez installé un blog minimal, responsive comme celui en-dessous vous laissant un peu de temps pour écrire des billets de blog épiques !
+En quelques minutes, vous aurez installé un blog minimal, responsive comme celui que vous voyez en-dessous vous laissant un peu de temps pour raffiner quelques billets de blog épiques sur l'indieweb ou la mise en route vers une décentralisation de l'internet !
 
-![Aperçu du Thème Jekyll Now](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+![Aperçu du Thème Jekyll Now](/images/jekyll-now-theme-screenshot.jpg "Screenshot du Thème Jekyll Now")
 
 ## Démarrage Rapide
 
@@ -38,7 +38,7 @@ Produire une modification sur le fichier _config.yml (ou tout fichier dans votre
 
 ![_config.yml](/images/config.png "_config.yml")
   
-### Étape 3) Publier votre premier billet de blog
+### Étape 3) Publiez votre premier billet de blog
 
 Éditez `/_posts/2014-3-3-Hello-World.md` pour publier votre premier billet de blog. Cette [Anti-sèche Markdown](http://www.jekyllnow.com/Markdown-Style-Guide/) pourra s'avérer pratique.
 
@@ -48,16 +48,16 @@ Produire une modification sur le fichier _config.yml (ou tout fichier dans votre
 
 ## Développement local
 
-1. Clonez localemnet votre fork `git clone git@github.com:votrenomutilisateur/votrenomutilisateur.github.io.git`
+1. Clonez localement votre fork `git clone git@github.com:votrenomutilisateur/votrenomutilisateur.github.io.git`
 2. Installez Jekyll `gem install jekyll`
 3. Installez les plug-ins que nous utilisons `gem install jemoji jekyll-sitemap`
 4. Servez le site et regardez les modifications markup/sass  `jekyll serve --watch`
 5. Visualisez votre site sur http://0.0.0.0:4000
 6. Committez toutes les modifications et poussez tout sur la branche master de votre repository utilisateur GitHub. GitHub Pages reconstruira et servira votre site web.
 
-## Moar!
+## Moar ! (Encore !)
 
-J'ai créé un parcours plus détaillé, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site web de Smashing Magazine. Regardez-le si vous aimeriez un parcours plus détaillé et quelque historique sur Jekyll. :metal:
+Cette localisation est un [fork de Barry Clark](https://github.com/barryclark/jekyll-now) qui vous délivrera un parcours plus détaillé [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site web de Smashing Magazine. Regardez-le si vous souhaitez tout un parcours bien plus détaillé et quelque historique sur Jekyll. :metal:
 
 Cela couvre : 
 
@@ -97,7 +97,7 @@ Si vous aimeriez me faire savoir quand je sors un nouveau thème, [laissez-moi s
 
 ## Autres thèmes forkables
 
-Vous pouvez utiliser le workflow [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) avec d'autres thèmes qui sont paramétrés pour être forkés ! Voici quelques-uns de mes préférés :
+Vous pouvez utiliser le workflow [Quick Start](https://github.com/christopheducamp/jekyll-now#Démarrage-rapide) avec d'autres thèmes qui sont paramétrés pour être forkés ! Voici quelques-uns de mes préférés :
 
 - [Hyde](https://github.com/poole/hyde) par MDO
 - [Lanyon](https://github.com/poole/lanyon) par MDO
@@ -111,7 +111,3 @@ Vous pouvez utiliser le workflow [Quick Start](https://github.com/barryclark/jek
 - [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Merci Edward.
 - [Joel Glovier](http://joelglovier.com/writing/) - Superbes  articles sur Jekyll. J'ai utilisé le feed.xml de Joel dans ce repository.
 - [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Remerciements pour les révisions de design/code.
-
-## Faites-vous Recruter comme Développeur Web 
-
-Jetez un oeil à ma [newsletter gratuite web development](http://www.barryclark.co/newsletter) si vous êtes intéressés pour augmenter vos chances de trouver le job que vous voulez.
