@@ -36,13 +36,13 @@ google_analytics:
 
 # Votre URL de site web (par ex. http://barryclark.github.io ou http://www.barryclark.co)
 # Utilisé pour Sitemap.xml et votre flux RSS
-url: 
+url: http://christopheducamp.github.io
 
 # Si vous hébergez votre site sur un repository Project sur les Pages GitHub
 # (http://votrenomutilisateur.github.io/nom-repository)
 # et NON PAS votre repository d'utilisateur (http://votrenomutilisateur.github.io)
 # puis ajoutez-ici l'url-base, comme ceci : "/nom-repository"
-baseurl: ""
+baseurl: "/jekyll-now"
 
 #
 # !! Vous n'avez pas besoin de modifier quelque balise de configuration en-dessous !!
