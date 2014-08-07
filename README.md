@@ -1,117 +1,117 @@
 # Jekyll Now
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+**Jekyll** est un générateur de site statique qui est parfait pour les blogs hébergés sur GitHub ([Repository Jekyll](https://github.com/jekyll/jekyll))
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+**Jekyll Now** facilite la création de votre blog Jekyll, en éliminant beaucoup de réglages amont.
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependancies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+- Vous n'avez pas besoin de toucher la ligne de commande
+- Vous n'avez pas besoin d'installer/configurer ruby, rvm/rbenv, ruby gems :relaxed:
+- Vous n'avez pas besoin d'installer des dépendances de runtime comme les processeurs markdown, Pygments, etc
+- Si vous êtes sur Windows, ceci facilitera grandement l'installation de Jekyll
+- C'est facile d'essayer, vous pouvez simplement effacer votre repository forké si vous n'aimez pas
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+En quelques minutes, vous aurez installé un blog minimal, responsive comme celui en-dessous vous laissant un peu de temps pour écrire des billets de blog épiques !
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+![Aperçu du Thème Jekyll Now](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
 
-## Quick Start
+## Démarrage Rapide
 
-### Step 1) Fork Jekyll Now to your User Repository
+### Étape 1) Forkez "Jekyll Now" sur votre Repository Utilisateur
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+Forkez ce repo, puis renommez-le en votrenomutilisateur.github.io.
 
-Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can force it to build by completing step 2)
+Votre blog Jekyll sera souvent visualisable instantanément sur  <http://votrenomutilisateurgithub.github.io> (si ce n'était pas le cas, vous pouvez le forcer à se construire en achevant l'étape 2)
 
-![Step 1](/images/step1.gif "Step 1")
+![Étape 1](/images/step1.gif "Step 1")
 
-### Step 2) Customize and view your site
+### Étape 2) Personnalisez et regardez votre site
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+Entrez votre nom de site, la description, l'avatar et plein d'autres options en éditant le fichier _config.yml. Vous pouvez aussi aisément activer le suivi Google Analytics, des commentaires Disqus et quelques icônes sociales.
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io>
+Produire une modification sur le fichier _config.yml (ou tout fichier dans votre repository) forcera GitHub Pages à reconstruire votre site avec jekyll. Votre site reconstruit sera visualisable quelques secondes plus tard sur <http://votrenomutilisateur.github.io>
 
-> There are 3 different ways that you can make changes to your blog's files:
+> Il existe 3 façons différentes pour faire des modifications sur les fichiers de votre blog :
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+> 1. Éditer les fichiers dans votre nouveau repository  nomutilisateur.github.io à l'intérieur de votre navigateur directement sur GitHub.com (présenté en-dessous).
+> 2. Utiliser un éditeur de contenu GitHub tiers, comme [Prose de Development Seed](http://prose.io). Il est optimisé pour fonctionner avec Jekyll et faciliter la production d'édition markdown, l'écriture de brouillons et le téléversement d'images.
+> 3. Clonez votre repository sur votre machine et produire les mises à jour localement, puis les pousser vers votre repository GitHub.
 
 ![_config.yml](/images/config.png "_config.yml")
   
-### Step 3) Publish your first blog post
+### Étape 3) Publier votre premier billet de blog
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+Éditez `/_posts/2014-3-3-Hello-World.md` pour publier votre premier billet de blog. Cette [Anti-sèche Markdown](http://www.jekyllnow.com/Markdown-Style-Guide/) pourra s'avérer pratique.
 
-![First Post](/images/first-post.png "First Post")
+![Premier Post](/images/premier-post.png "Premier Post")
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+> Vous pouvez aussi ajouter des posts supplémentaires dans le navigateur sur Github.com ! Pressez simplemnet l'icône + dans  `/_posts/` pour créer un nouveau contenu. Assurez-vous juste d'inclure bloc [front-matter](http://jekyllrb.com/docs/frontmatter/) tout en haut de chaque post de blog et assurez-vous que le nom de fichier suive ce format : année-mois-jour-titre.md
 
-## Local Development
+## Développement local
 
-1. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-2. Install Jekyll `gem install jekyll`
-3. Install plug-ins that we use `gem install jemoji jekyll-sitemap`
-4. Serve the site and watch for markup/sass changes `jekyll serve --watch`
-5. View your website at http://0.0.0.0:4000
-6. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+1. Clonez localemnet votre fork `git clone git@github.com:votrenomutilisateur/votrenomutilisateur.github.io.git`
+2. Installez Jekyll `gem install jekyll`
+3. Installez les plug-ins que nous utilisons `gem install jemoji jekyll-sitemap`
+4. Servez le site et regardez les modifications markup/sass  `jekyll serve --watch`
+5. Visualisez votre site sur http://0.0.0.0:4000
+6. Committez toutes les modifications et poussez tout sur la branche master de votre repository utilisateur GitHub. GitHub Pages reconstruira et servira votre site web.
 
 ## Moar!
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+J'ai créé un parcours plus détaillé, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site web de Smashing Magazine. Regardez-le si vous aimeriez un parcours plus détaillé et quelque historique sur Jekyll. :metal:
 
-It covers:
+Cela couvre : 
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+- Un parcours plus détaillé d'installation de votre blog Jekyll
+- Les problèmes connus que vous pourriez rencontrer en utilisant Jekyll
+- L'importation à partir de WordPress, en utilisant votre nom de domaine, et le blog dans votre éditeur favori
+- Les thèmes dans Jekyll, avec des exemples de thèmes Liquid
+- Un rapide aperçu des nouvelles fonctionnalités de Jekyll 2.0, y compris le support de Sass/Coffeescript et des Collections.
 
-## Jekyll Now Features
+## Fonctionnalités de Jekyll Now
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-✓ Emoji in blog posts! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
+✓ Pas de ligne de commande. Un simple  _workflow-fork_, utilisant  GitHub.com pour créer, personnaliser et poster sur votre blog
+✓ Thème de base totalement responsive et optimisé pour mobile  (**[Thème Demo](http://jekyllnow.com)**)  
+✓ Support de Sass/Coffeescript utilisant Jekyll 2.0  
+✓ Hébergement gratuit sur vos site d'utilisateur de Pages GitHub 
+✓ Blog en Markdown
+✓ Mise en valeur de la syntaxe
+✓ Commentaires Disqus
+✓ Intégration Google Analytics
+✓ Icônes sociales SVG pour votre pied de page
+✓ 3 requêtes http, y compris votre avatar
+✓ Emoji dans le blog posts! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
 
-✘ No installing dependancies  
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+✘ Aucune installation de dépendances
+✘ Aucun besoin de paramétrer un développement local
+✘ Pas de plugins de configuration
+✘ Aucun besoin de passer du temps sur la production de thèmes
+✘ Plus de temps pour coder d'autres trucs  ... attendez ✓!  
 
-## Questions?
+## Questions ?
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+[Ouvrez une Issue](https://github.com/barryclark/jekyll-now/issues/new) et discutons !
 
-## Get my new themes
+## Recevoir mes nouveaux thèmes
 
-If you'd like me to let you know when I release a new theme, just [drop me your email for updates](http://eepurl.com/XUZpT). I'm currently working on a hacker portfolio site theme.
+Si vous aimeriez me faire savoir quand je sors un nouveau thème, [laissez-moi simplement votre e-mail pour les mises à jour](http://eepurl.com/XUZpT). Je suis en train de travailler actuellement sur un site portfolio de thèmes de hackers.
 
-## Other forkable themes
+## Autres thèmes forkables
 
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of  my favorites:
+Vous pouvez utiliser le workflow [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) avec d'autres thèmes qui sont paramétrés pour être forkés ! Voici quelques-uns de mes préférés :
 
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
+- [Hyde](https://github.com/poole/hyde) par MDO
+- [Lanyon](https://github.com/poole/lanyon) par MDO
+- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) par Tom Preston-Werner
+- [Left](https://github.com/holman/left) par Zach Holman
 
-## Credits
+## Crédits
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to it's creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful. 
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
+- [Jekyll](https://github.com/jekyll/jekyll) - Merci à ses créateurs, contributeurs et mainteneurs.
+- [Icônes SVG](https://github.com/neilorangepeel/Free-Social-Icons) - Merci à Neil Orange Peel. Elles sont splendides. 
+- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Merci Edward.
+- [Joel Glovier](http://joelglovier.com/writing/) - Superbes  articles sur Jekyll. J'ai utilisé le feed.xml de Joel dans ce repository.
+- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Remerciements pour les révisions de design/code.
 
-## Get Hired as a Web Developer
+## Faites-vous Recruter comme Développeur Web 
 
-Check out my [free web development career newsletter](http://www.barryclark.co/newsletter) if you're interested in improving your chances of landing the job you want.
+Jetez un oeil à ma [newsletter gratuite web development](http://www.barryclark.co/newsletter) si vous êtes intéressés pour augmenter vos chances de trouver le job que vous voulez.

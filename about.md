@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: À Propos
 ---
 
-Some information about you!
+Quelque information vous concernant !
 
-### More Information
+### Plus d'Informations
 
-A place to include any other types of information that you'd like to include about yourself. 
+Un endroit où placer tout type d'information que vous aimeriez publier vous concernant.
 
-### Contact me
+### Contactez-moi
 
-[email@domain.com](mailto:email@domain.com)
+[courriel@mondomaine.com](mailto:courriel@mondomaine.com)

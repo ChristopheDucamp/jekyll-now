@@ -1,71 +1,71 @@
 #
-# This file contains configuration flags to customize your site
+# Ce fichier contient les balises de configuration pour personnaliser votre site
 #
 
-# Name of your site (displayed in the header)
-name: Your Name
+# Nom de votre site (affiché dans le header)
+name: Votre Nom
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# Bio rapide ou description (affichée dans le header)
+description: Développeur Web de Quelque Part
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# URL de votre avatar ou photo de profil (vous pourriez utiliser votre photo de profil GitHub)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
-# Flags below are optional
+# Les balises ci-dessous sont facultatives
 #
 
-# Includes an icon in the footer for each username you enter
+# Ajoute une icône dans le pied de page pour chaque nom d'utilisateur que vous entrez
 footer-links:
   dribbble: 
   email: 
   facebook: 
   flickr: 
-  github: barryclark/jekyll-now
+  github: christopheducamp/jekyll-now
   instagram: 
   linkedin: 
   pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: # tapez juste ici ce que vous voulez pour une icône RSS, assurez vous d'avoir réglé l'url au-dessus ! 
   twitter: jekyllrb
 
-# Your disqus shortname, entering this will enable commenting on posts
+# Votre nom d'utilisateur disqs, entrer ça permettra les commentaires sur les posts
 disqus: 
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Entrez votre code de suivi Google Analytics (par ex. UA-2110908-2) pour activer le suivi
 google_analytics: 
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# Votre URL de site web (par ex. http://barryclark.github.io ou http://www.barryclark.co)
+# Utilisé pour Sitemap.xml et votre flux RSS
 url: 
 
-# If you're hosting your site at a Project repository on GitHub pages 
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# Si vous hébergez votre site sur un repository Project sur les Pages GitHub
+# (http://votrenomutilisateur.github.io/nom-repository)
+# et NON PAS votre repository d'utilisateur (http://votrenomutilisateur.github.io)
+# puis ajoutez-ici l'url-base, comme ceci : "/nom-repository"
 baseurl: ""
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# !! Vous n'avez pas besoin de modifier quelque balise de configuration en-dessous !!
 #
 
 markdown: kramdown
 highlighter: pygments
 permalink: /:title
 
-# The release of Jekyll Now that you're using
+# La version de Jekyll Now que vous utilisez à cette heure
 version: v1.0.0
 
-# Set the Sass partials directory, as we're using @imports
+# Régler le répertoire Sass partiel, car nous utilisons @imports
 sass:
   sass_dir: _scss
-  style: :expanded # You might prefer to minify using :compressed
+  style: :expanded # Vous pourriez préférer minimiser en utilisant :compressed
 
-# Use the following plug-ins
+# Utilise les plugins suivants
 gems:
-  - jemoji # Emoji please!
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jemoji # Emoji SVP !
+  - jekyll-sitemap # Crée un sitemap en utilisant la gem officiellle de Jekyll
 
-# Exclude these files from your production _site
+# Excluez ces fichiers de votre _site de production
 exclude:
     - Gemfile
     - Gemfile.lock
