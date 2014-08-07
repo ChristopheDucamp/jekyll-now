@@ -97,7 +97,7 @@ Si vous aimeriez me faire savoir quand je sors un nouveau thème, [laissez-moi s
 
 ## Autres thèmes forkables
 
-Vous pouvez utiliser le workflow [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) avec d'autres thèmes qui sont paramétrés pour être forkés ! Voici quelques-uns de mes préférés :
+Vous pouvez utiliser le workflow [Quick Start](https://github.com/christopheducamp/jekyll-now##démarrage-rapide) avec d'autres thèmes qui sont paramétrés pour être forkés ! Voici quelques-uns de mes préférés :
 
 - [Hyde](https://github.com/poole/hyde) par MDO
 - [Lanyon](https://github.com/poole/lanyon) par MDO
