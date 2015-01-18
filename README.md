@@ -1,6 +1,6 @@
 # Jekyll Now
 
-**Jekyll** est un générateur de site statique qui est parfait pour les blogs hébergés sur GitHub ([Repository Jekyll](https://github.com/jekyll/jekyll))
+**Jekyll** est un générateur de site statique parfait pour les blogs hébergés sur GitHub ([Repository Jekyll](https://github.com/jekyll/jekyll))
 
 **Jekyll Now** facilite la création de votre blog Jekyll, en éliminant beaucoup de réglages amont.
 
@@ -8,17 +8,17 @@
 - Vous n'avez pas besoin d'installer/configurer ruby, rvm/rbenv, ruby gems :relaxed:
 - Vous n'avez pas besoin d'installer des dépendances de runtime comme les processeurs markdown, Pygments, etc
 - Si vous êtes sur Windows, ceci facilitera grandement l'installation de Jekyll
-- C'est facile d'essayer, vous pouvez simplement effacer votre repository forké si vous n'aimez pas
+- C'est facile d'essayer, et si vous n'aimez pas vous pouvez simplement effacer votre repository forké
 
 En quelques minutes, vous aurez installé un blog minimal, responsive comme celui en-dessous vous laissant un peu de temps pour écrire des billets de blog épiques !
 
-![Aperçu du Thème Jekyll Now](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+![Screenshot du Thème Jekyll Now](/images/jekyll-now-theme-screenshot.jpg " Screenshot du Thème Jekyll Now")
 
 ## Démarrage Rapide
 
 ### Étape 1) Forkez "Jekyll Now" sur votre Repository Utilisateur
 
-Forkez ce repo, puis renommez-le en votrenomutilisateur.github.io.
+Forkez ce repo, puis renommez-le en `votrenomutilisateur.github.io`.
 
 Votre blog Jekyll sera souvent visualisable instantanément sur  <http://votrenomutilisateurgithub.github.io> (si ce n'était pas le cas, vous pouvez le forcer à se construire en achevant l'étape 2)
 
@@ -44,7 +44,7 @@ Produire une modification sur le fichier _config.yml (ou tout fichier dans votre
 
 ![Premier Post](/images/premier-post.png "Premier Post")
 
-> Vous pouvez aussi ajouter des posts supplémentaires dans le navigateur sur Github.com ! Pressez simplemnet l'icône + dans  `/_posts/` pour créer un nouveau contenu. Assurez-vous juste d'inclure bloc [front-matter](http://jekyllrb.com/docs/frontmatter/) tout en haut de chaque post de blog et assurez-vous que le nom de fichier suive ce format : année-mois-jour-titre.md
+> Vous pouvez aussi ajouter des posts supplémentaires dans le navigateur sur Github.com ! Pressez simplement l'icône + dans  `/_posts/` pour créer un nouveau contenu. Assurez-vous juste d'inclure bloc [front-matter](http://jekyllrb.com/docs/frontmatter/) tout en haut de chaque post de blog et assurez-vous que le nom de fichier suive ce format : année-mois-jour-titre.md
 
 ## Développement local
 
@@ -112,6 +112,3 @@ Vous pouvez utiliser le workflow [Quick Start](https://github.com/christopheduca
 - [Joel Glovier](http://joelglovier.com/writing/) - Superbes  articles sur Jekyll. J'ai utilisé le feed.xml de Joel dans ce repository.
 - [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Remerciements pour les révisions de design/code.
 
-## Faites-vous Recruter comme Développeur Web 
-
-Jetez un oeil à ma [newsletter gratuite web development](http://www.barryclark.co/newsletter) si vous êtes intéressés pour augmenter vos chances de trouver le job que vous voulez.

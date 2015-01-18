@@ -3,13 +3,13 @@
 #
 
 # Nom de votre site (affiché dans le header)
-name: Votre Nom
+name: Christophe Ducamp
 
 # Bio rapide ou description (affichée dans le header)
-description: Développeur Web de Quelque Part
+description: Routard Indieweb
 
 # URL de votre avatar ou photo de profil (vous pourriez utiliser votre photo de profil GitHub)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: http://christopheducamp.com/logo.jpg
 
 #
 # Les balises ci-dessous sont facultatives
@@ -18,15 +18,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Ajoute une icône dans le pied de page pour chaque nom d'utilisateur que vous entrez
 footer-links:
   dribbble: 
-  email: 
-  facebook: 
+  email: christophe@mydatalabs.com
+  facebook: christopheducamp
   flickr: 
   github: christopheducamp/jekyll-now
-  instagram: 
+  instagram: xtof_fr
   linkedin: 
   pinterest: 
   rss: # tapez juste ici ce que vous voulez pour une icône RSS, assurez vous d'avoir réglé l'url au-dessus ! 
-  twitter: jekyllrb
+  twitter: xtof_fr
 
 # Votre nom d'utilisateur disqs, entrer ça permettra les commentaires sur les posts
 disqus: 
